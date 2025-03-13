@@ -1,0 +1,17 @@
+[project]
+name = "browser-use-atg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nan Xiao", email = "me@nanx.me" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+browser-use-atg = "browser_use_atg:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
