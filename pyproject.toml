@@ -6,8 +6,10 @@ readme = "README.md"
 authors = [
     { name = "Nan Xiao", email = "me@nanx.me" }
 ]
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "browser-use>=0.1.40",
+]
 
 [project.scripts]
 browser-use-atg = "browser_use_atg:main"
